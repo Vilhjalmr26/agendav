@@ -1,5 +1,5 @@
 # agendav
-Container with Agendav
+Container with AgenDAV
 
 This is for creating a docker container with Apache2, PHP7.4.28, and AgenDAV.
 It is specifically set up for using MySQL as the database backend.
@@ -58,8 +58,6 @@ DEFAULT_SHOW_NOW_INDICATOR
 
 DEFAULT_LIST_DAYS
 - Default number of days covered by the "list" (agenda) view. Allowed values: 7, 14 or 31
-
-DEFAULT_VIEW
 
 DEFAULT_DEFAULT_VIEW
 - Default view (month, week, day or list)
