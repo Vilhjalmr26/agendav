@@ -15,7 +15,7 @@ then
 
         apache2-foreground
     else
-        echo "date.timezone='UTC'" > /config/default.timezone.ini
+        echo "date.timezone='UTC'" > /config/example.timezone.ini
         echo "Please create /config/timezone.ini"
     fi
 # if settings file does NOT exist
