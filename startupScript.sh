@@ -24,7 +24,7 @@ else
     if ! [ -f "/config/example.settings.php" ];
     then
         cp /var/www/agendav/web/config/default.settings.php /config/example.settings.php
-        sed -ri "s|'/../var/log/'|'/var/www/agendav/web/var/log/'|" /config/example.settings.php
+        sed -ri "s|__DIR__.'/../var/log/'|'/var/www/agendav/web/var/log/'|" /config/example.settings.php
     fi
 
     # prompt in log to create settings
