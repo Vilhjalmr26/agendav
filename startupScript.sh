@@ -31,7 +31,7 @@ else
     echo "Please create /config/settings.php"
 
     # if timezone.ini doesnt exist create example and prompt in log
-    if [ -f "/config/timezone.ini" ];
+    if ! [ -f "/config/timezone.ini" ];
     then
         echo "date.timezone='UTC'" > /config/example.timezone.ini
         echo "Please create /config/timezone.ini"
